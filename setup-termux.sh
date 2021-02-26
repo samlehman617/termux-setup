@@ -6,7 +6,6 @@ termux-info
 # Install packages
 pkg upgrade
 pkg install \
-	jq \
 	x11-repo \
 	proot
 
@@ -31,3 +30,6 @@ root=$(termux-dialog confirm -t "Root Access" -i "Does your device have root acc
 
 echo "Done!"
 echo "Please restart Termux for changes to take effect."
+
+wait 30
+exit 0
