@@ -53,7 +53,7 @@ They are free on F-Droid, but cost $1.99 on the Google Play Store.
 #### Inside Termux:
 1. Install git:
 ```bash
-pkg install git
+pkg install git jq
 ```
 
 2. Clone the repository:
